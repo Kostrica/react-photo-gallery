@@ -1,0 +1,31 @@
+.galeryContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .galery {
+    height: 700px;
+    max-width: 980px;
+    overflow: auto;
+
+    .list {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      padding: 50px 0 0 50px;
+      margin: 0;
+
+      .item {
+        list-style: none;
+        margin: 0 50px 50px 0;
+      }
+    }
+
+    .loader {
+      margin-bottom: 50px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+}

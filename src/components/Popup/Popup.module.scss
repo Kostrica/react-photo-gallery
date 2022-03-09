@@ -1,0 +1,65 @@
+.popupPhoto,
+.popupQuestion {
+  position: relative;
+
+  .crossIcon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .wraperQuestionBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    padding-top: 60px;
+
+    .question {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    .buttonBox {
+      display: flex;
+      flex-direction: row;
+
+      .buttonOk,
+      .buttonCancel {
+        margin: 40px;
+        height: 50px;
+        width: 100px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border-radius: 16px;
+        border: none;
+
+        &:hover {
+          cursor: pointer;
+          box-shadow: 2px 2px 5px 1px #E5E5E5;
+        }
+      }
+
+      .buttonOk {
+        background-color: #4BCFA0;
+      }
+
+      .buttonCancel {
+        background-color: #b9bebd;
+      }
+    }
+  }
+}
+
+.popupPhoto {
+  height: 600px;
+  width: 600px;
+}
