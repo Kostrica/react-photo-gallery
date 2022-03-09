@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-photo-gallery/static/css/main.1335377e.css",
+    "main.js": "/react-photo-gallery/static/js/main.17d98b4b.js",
+    "static/media/remove.svg": "/react-photo-gallery/static/media/remove.aec8c54c6f4742e61ed7a2cd6c5695e7.svg",
+    "index.html": "/react-photo-gallery/index.html",
+    "main.1335377e.css.map": "/react-photo-gallery/static/css/main.1335377e.css.map",
+    "main.17d98b4b.js.map": "/react-photo-gallery/static/js/main.17d98b4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1335377e.css",
+    "static/js/main.17d98b4b.js"
+  ]
+}
